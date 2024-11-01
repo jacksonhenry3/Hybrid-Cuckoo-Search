@@ -48,6 +48,7 @@ void readInput::readPOSCAR()
 {
     stringstream ss;
     int linnumb = 1;
+    int totalatoms = 0;
     string line, key;
     std::ifstream inp ("./POSCAR");
     if (inp.is_open()) {
